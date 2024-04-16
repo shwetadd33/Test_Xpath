@@ -1,0 +1,19 @@
+<div>
+<p>Paragraph one</p>
+<h1>Heading 1 </h1>
+</div>
+
+
+XPath Exercise 1
+Q1. Find Paragraph one 
+
+//p
+
+Q2. Find Heading 1 
+//h1
+
+Q3. Find Heading 1 From DIV Tag 
+/div/h1
+
+Q4. Find Paragraph From DIV Tag 
+/div/p
