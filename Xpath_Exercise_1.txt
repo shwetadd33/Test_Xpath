@@ -1,3 +1,4 @@
+HTML Source document
 <div>
 <p>Paragraph one</p>
 <h1>Heading 1 </h1>
@@ -6,7 +7,6 @@
 
 XPath Exercise 1
 Q1. Find Paragraph one 
-
 //p
 
 Q2. Find Heading 1 

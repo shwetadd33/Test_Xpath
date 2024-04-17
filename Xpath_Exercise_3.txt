@@ -1,0 +1,61 @@
+HTML Source document
+<span class="sub-text">
+<p>Contact US</p>
+</span>
+
+<p id="p1" class="para">Para 1</p>
+
+<div class="container">
+
+<p id="p2" class="para" style="left:252px;">Para 2</p>
+<p id="p3" class="para" style="width:117px;">Para 3</p>
+<p id="p4" class="para" style="height:24px;">Para 4</p>
+
+</div>
+
+
+XPath Exercise 3
+Q1. Find Contact US using Text()
+//*[text()='Contact US']
+
+Q2. Find Contact US using Contains()
+//p[contains(text(),'Contact US')]
+OR
+//*[contains(text(),'Contact US')]
+
+Q3. Find Contact US using Starts-With()
+//*[starts-with(text(), 'Contact')]
+OR
+//p[starts-with(text(), 'Contact')]
+
+Q4. Find Para 1 using ID attribute
+//*[@ID = 'p1']
+OR
+//p[@ID = 'p1']
+
+Q5. Find Para 1 using Class attribute
+//p[@class='para' and text() = 'Para 1']
+
+Q6. Find Para 1 using ID and Class attribute
+//p[@class='para' and @ID = 'p1']
+
+Q7. Find all Para inside the DIV tag
+div//p
+
+Q8. Find Para 2 using Style attribute
+//p[@style="left:252px;"]
+
+Q9. Find Para 3 using Style attribute
+//p[@style="width:117px;"]
+
+Q10. Find Para 4 using Style attribute
+//p[@style="height:24px;"]
+
+Q11. Find Para 2 and 3 together
+//p[@ID='p2' or @ID='p3']
+
+Q12. Find Para 3 and 4 together
+//p[@ID='p3' or @ID='p4']
+
+Q13. Find All Para
+//p
