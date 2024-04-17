@@ -1,0 +1,45 @@
+HTML Source document
+
+<h1>Heading 1 </h1>
+<h2>Heading 2 </h2>
+<h3>Heading 3 </h3>
+<h4>Heading 4 </h4>
+<h5>Heading 5 </h5>
+<h6>Heading 6 </h6>
+
+XPath Exercise 2
+Q1. Find Heading 1 
+//h1
+
+Q2. Find Heading 2 
+//h2
+
+Q3. Find Heading 3 
+//h3
+
+Q4. Find Heading 4 
+//h4
+
+Q5. Find Heading 5 
+//h5
+
+Q6. Find Heading 6 
+//h6
+
+Q7. Find Heading 1 using "Contains() function" 
+//h1[contains(text(),"Heading 1")]
+
+Q8. Find Heading 2 using "Contains() function" 
+//h2[contains(text(),"Heading 2")]
+
+Q9. Find Heading 3 using "Contains() function" 
+//h3[contains(text(),"Heading 3")]
+
+Q10. Find Heading 4 using "Contains() function" 
+//h4[contains(text(),"Heading 4")]
+
+Q11. Find Heading 5 using "Contains() function" 
+//h5[contains(text(),"Heading 5")]
+
+Q12. Find Heading 6 using "Contains() function"
+//h6[contains(text(),"Heading 6")]
